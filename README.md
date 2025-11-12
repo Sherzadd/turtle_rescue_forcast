@@ -60,11 +60,22 @@ Zindi typically used **Mean Absolute Error (MAE)** — lower is better.
 
 ---
 
-## ⚙️ How to Run
+## Set up the Environment
 
-### 1. Requirements
-```bash
-pip install pandas numpy scikit-learn
+### WindowsOS type the following commands :
+Install the virtual environment and the required packages by following commands.
+
+For PowerShell CLI :
+
+`pyenv local 3.11.3`
+
+`python -m venv .venv`
+
+`.venv\Scripts\Activate.ps1`
+
+`python -m pip install --upgrade pip`
+
+`pip install -r requirements.txt`
 
 
 
